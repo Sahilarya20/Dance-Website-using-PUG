@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+    margin: 12px;
+}
+
+.myform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.myinput{
+    width: 40%;
+    padding: 7px 12px;
+    margin: 8px 11px;
+    border: 2px solid black;
+    border-radius: 13px;
+    outline: none;
+}
+.btn{
+    padding: 4px 13px;
+    border-radius: 10px;
+    margin: 4px 9px;
+    color: red;
+    cursor: pointer ;
+}
+.container{
+    height: 86.4vh;
+}
+.container h1{
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+body{
+    background: center/cover no-repeat url("../static/img/bg.jpg")
+}
+    

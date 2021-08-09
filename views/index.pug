@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    title Sahil Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+            div#logo
+                img(src=" /static/img/3.png", alt="logo")
+                | SDA
+            li #[a(href='/') Home]
+            li #[a(href='/') about]
+            li #[a(href='/') Service]
+            li #[a(href='/') Contact Us]
+    section#introSection
+        div Welcome to Sahil's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h2 Our mission
+        div.card
+            h3 Dance perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png", alt="")
+                div.card-content
+                    p This is the best dance academy 
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png", alt="")
+                div.card-content
+                    p This is the best dance academy 
+        div.card
+            h3 Expert teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/4.png", alt="")
+                div.card-content
+                    p This is the best dance academy 
+    section#sponsorsSection
+        h2 Our Sponsors
+        div.sponsor
+            img(src="/static/img/c1.png", alt="twitter", class="spimage")
+            img(src="/static/img/c4.png", alt="twitter", class="spimage")
+            img(src="/static/img/c3.png", alt="twitter", class="spimage")
+            img(src="/static/img/c2.png", alt="twitter", class="spimage")
+    footer#footer
+        |Copyright@Sahilarya53@gmail.com
+
+    script
+      include ../static/index.js

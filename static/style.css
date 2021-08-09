@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 16px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 46px;
+    filter: invert(1);
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: #d43b3b;
+    font-family: 'Yeon Sung' ;
+    padding: 13px, 14px;
+   
+}
+#navbar ul{
+    padding: 0px 4px;
+    display: flex;
+    flex-direction: row;
+     
+    align-items: center;
+}
+#navbar li{
+    font-family: 'Otomanopee One', sans-serif;
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+#navbar li a:hover{
+    color: black;  
+}
+#introSection{
+    font-family: 'Otomanopee One', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-size: 42px;
+    align-items: center;
+    background: center/cover no-repeat url("../static/img/bg.jpg") ;
+    height: 415px;
+    background-color: red;
+}
+#introSection div.small{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 39px;
+    padding: 5px;
+}
+#sponsorsSection{
+    font-family: 'Otomanopee One', sans-serif;
+    height: 300px;
+    
+    background-color: #fbd6d6c7;
+
+}
+#sponsorsSection h2{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 43px;
+    text-align: center;
+}
+#missionSection{
+    font-family: 'Otomanopee One', sans-serif;
+    height: 300px;
+    background-color: #ffffffc7;
+    margin: auto;
+    display: block;
+    width: 70%;
+    margin-bottom: 15px;
+}
+#missionSection h2  {
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 43px;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    margin: 19px 24.9px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 27%;
+    height: 209px;
+    background: rgb(240, 178, 178);
+    
+}
+.card h3{
+    font-family: arial;
+    text-align: center;
+    margin: 12px;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-img img{
+    height: inherit;
+}
+.card-img {
+    height: 131px;
+}
+
+.sponsor{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.spimage{
+    height: 150px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+    color: white;
+    
+}
